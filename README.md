@@ -1,3 +1,10 @@
-# final_project-jimcylin-0523
-final_project-jimcylin-0523 created by GitHub Classroom
-我要做 project 7 打地鼠
+# Final Projact 打地鼠
+下載完所有檔案。執行rat.m
+# 遊戲介紹
+總共有20隻老鼠隨機出現在9個洞\
+其中會機率出現不能打的愛心\
+每次出現有0.7秒的反應時間\
+在限時內打到老鼠+5分\
+打到愛心或沒在時間內打到老鼠扣3分
+# 結束遊戲
+20之都出現遊戲自己會結束
