@@ -59,13 +59,8 @@ function rat()
         drawnow;
         pause(0.7);%給你0.7秒按
         
-        action='down'; %點擊滑鼠 這是參考chiuyuju同學的
-        switch (action)
-            case 'down'
-                set(gcf,'WindowButtonDownFcn','mouse01 down')
-                coo=ax.CurrentPoint(1,1:2);
-                set(gcf,'WindowButtonUpFcn','mouse01 up')
-        end
+        %點擊滑鼠 這是參考chiuyuju同學的
+        coo=ax.CurrentPoint(1,1:2);
         x=coo(1);
         y=coo(2);
                 
@@ -102,7 +97,7 @@ function rat()
         last=hole;%記住上個洞
         clf('reset')%把東西擦乾淨
     end
-    title(['Score;',num2str(score)]);%記分板
+    title(['Score:',num2str(score)]);%記分板
     ax=axes();%結為畫面
     image(thanks)
 end
